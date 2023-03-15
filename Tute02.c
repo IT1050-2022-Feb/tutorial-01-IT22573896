@@ -27,10 +27,11 @@ int main() {
 
   if (distance > 30) {
     amount = distance * 50 + (50 - distance) * 40;
-    printf("Amount for a rented vehicle : %d", amount);
+    //printf("Amount for a rented vehicle : %d", amount);
   } else {
     amount = distance * 50;
-    printf("Amount for a rented vehicle : %d", amount);
+    //printf("Amount for a rented vehicle : %d", amount);
   }
+  printf("Amount for a rented vehicle : %d", amount);
   return 0;
 }
